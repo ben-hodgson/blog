@@ -1,12 +1,12 @@
 baseurl = "https://ben-hodgson.github.io"
 languageCode = "en-us"
-theme = "terminal"
+theme = "mainroad"
 paginate = 5
 
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "post"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "green"
@@ -50,7 +50,7 @@ paginate = 5
     subtitle = "The portfolio and blog of Ben Hodgson"
     owner = "Ben Hodgson"
     keywords = ""
-    copyright = "2021 Ben Hodgson"
+    copyright = "Ben Hodgson"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
