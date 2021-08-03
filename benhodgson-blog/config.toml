@@ -1,0 +1,74 @@
+baseURL = "https://ben-hodgson.uk"
+languageCode = "en-us"
+title = "Ben-Hodgson.uk"
+theme = "mainroad"
+paginate = "10" # Number of posts per page
+
+[Author]
+name = "Ben Hodgson"
+bio = "Ben Hodgson is a studying for a BSc in Computing and IT with the Open University in the UK"
+avatar = "img/avatar.png"
+
+[menu]
+    [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -110
+
+    [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "ben-hodgson_cv.pdf"
+    weight = -105
+
+[Params]
+description = "Ben Hodgson's personal/study blog about any project that enter his scattered mind"
+copyright = "Ben Hodgson"
+opengraph = true
+readmore = true
+authorbox = true
+toc = true
+pager = true
+post_meta = ["author", "date", "categories"]
+#mainSections = ["post", "blog", "projects", "python", "3dprint"]
+dateformat = "02-01-2006"
+mathjax = true
+mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+mathjaxConfig = "TEX-AMS-MML-HTMLorMML"
+googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+#customCSS = ["css/custom.css"]
+#customJS = ["js/custom.js"]
+
+[Params.style.vars]
+highlightColor = "#e22d30"
+fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+image = "img/placeholder.png"
+title = "Ben-Hodgson.uk"
+subtitle = "The blog"
+
+[Params.sidebar]
+home = "right"
+list = "left"
+single = false
+widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+recent_num = 5
+categories_counter = false
+tags_counter = false
+
+[Params.widgets.social]
+linkedin = "benthodgson"
+github = "ben-hodgson"
+gitlab = "ben-hodgson"
+email = "bthodgson@gmail.com"
+
+#[Params.widgets.social.custom]
+#title = "Home Page"
+#url = "https://ben-hodgson.uk"
