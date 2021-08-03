@@ -41,6 +41,8 @@ mathjaxConfig = "TEX-AMS-MML-HTMLorMML"
 googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
 #customCSS = ["css/custom.css"]
 #customJS = ["js/custom.js"]
+contentTypeName = "post"
+themeColor = "green"
 
 [Params.style.vars]
 highlightColor = "#e22d30"
