@@ -1,4 +1,4 @@
-[submodule "benhodgson-blog/public"]
-	path = benhodgson-blog/public
+[submodule "ben-hodgson-blog/public"]
+	path = ben-hodgson-blog/public
 	url = https://github.com/ben-hodgson/ben-hodgson.github.io.git
 	branch = main
