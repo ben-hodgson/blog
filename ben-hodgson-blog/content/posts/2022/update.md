@@ -2,7 +2,7 @@
 title = "Update"
 author = "Ben Hodgson"
 date = "2022-06-22T11:29:00+01:00"
-url = "/update/"
+url = "posts/2022/update/"
 image = "/images/2022-thumbs/update.jpg"
 thumbnail = ""
 categories = ["Blog", "Update"]

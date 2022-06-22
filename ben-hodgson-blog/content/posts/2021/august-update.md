@@ -2,7 +2,7 @@
 title = "August Update"
 author = "Ben Hodgson"
 date = "2021-08-03T12:23:09+01:00"
-url = "/august-update/"
+url = "posts/2021/august-update/"
 image = "/images/2021-thumbs/august-update.jpg"
 thumbnail = ""
 categories = ["Blog" ]
